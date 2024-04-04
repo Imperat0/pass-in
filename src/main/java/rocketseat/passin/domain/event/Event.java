@@ -1,4 +1,4 @@
-package rocketseat.passin.domain.events;
+package rocketseat.passin.domain.event;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -24,7 +24,7 @@ public class Event {
 
     @Column(nullable = false, unique = true)
     private String slug;
-
     @Column(nullable = false, name = "maximum_attendees")
     private Integer maximumAttendees;
+
 }

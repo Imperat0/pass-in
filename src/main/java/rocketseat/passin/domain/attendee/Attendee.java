@@ -5,7 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import rocketseat.passin.domain.events.Event;
+import rocketseat.passin.domain.event.Event;
 
 import java.time.LocalDateTime;
 
